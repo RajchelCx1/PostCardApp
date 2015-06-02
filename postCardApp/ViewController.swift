@@ -10,9 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var nameTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    @IBAction func buttonPressed(sender: UIButton) {
+        nameLabel.text = nameTextField.text;
+        nameLabel.hidden = false;
+        nameTextField.resignFirstResponder();
+        sender.backgroundColor = UIColor.redColor();
+        
     }
 
     override func didReceiveMemoryWarning() {

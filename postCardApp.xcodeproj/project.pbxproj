@@ -13,6 +13,7 @@
 		8B750E721B1E73360090A163 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B750E711B1E73360090A163 /* Images.xcassets */; };
 		8B750E751B1E73360090A163 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B750E731B1E73360090A163 /* LaunchScreen.xib */; };
 		8B750E811B1E73360090A163 /* postCardAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B750E801B1E73360090A163 /* postCardAppTests.swift */; };
+		8B750E8B1B1E73510090A163 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B750E8A1B1E73510090A163 /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8B750E7A1B1E73360090A163 /* postCardAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = postCardAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B750E7F1B1E73360090A163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B750E801B1E73360090A163 /* postCardAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postCardAppTests.swift; sourceTree = "<group>"; };
+		8B750E8A1B1E73510090A163 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		8B750E681B1E73360090A163 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B750E8A1B1E73510090A163 /* AlbertEinsteinStamp.jpg */,
 				8B750E691B1E73360090A163 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B750E8B1B1E73510090A163 /* AlbertEinsteinStamp.jpg in Resources */,
 				8B750E701B1E73360090A163 /* Main.storyboard in Resources */,
 				8B750E751B1E73360090A163 /* LaunchScreen.xib in Resources */,
 				8B750E721B1E73360090A163 /* Images.xcassets in Resources */,
